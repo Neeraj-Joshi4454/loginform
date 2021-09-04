@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+body{
+
+    background-image: url(../images/moon-2762111_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form{
+    border: 2px solid#37d49f;
+    height: 27rem;
+    width: 30%;
+    border-radius: .3rem;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.feilds{
+
+    padding-top: 5rem;
+}
+
+h1{
+    color:#37d49f;
+}
+
+.loginimg{
+
+    height: 5rem;
+    /* border: 1px solid green; */
+    margin-top: -2.5rem;
+}
+
+form input{
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid#37d49f;
+    outline: none;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+}
+
+form label{
+
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#sub{
+
+    background-color: transparent;
+    border: 2px solid #37d49f;
+    height: 3rem;
+    width: 8rem;
+    border-radius: 1rem;
+    transition: all ease-in-out .5s;
+}
+
+#sub:hover{
+
+    background-color:#37d49f;
+    transition: all ease-in-out .5s;
+}
